@@ -2,6 +2,9 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--title-color);
 }
+.container {
+  max-width: 1200px;
+}
 
 :root {
   --title-color: #212121;
@@ -21,7 +24,7 @@ body {
 .link-color {
   color: var(--title-color);
 }
-.list-decoration {
+ul {
   list-style: none;
 }
 .link-decoration {
@@ -38,6 +41,10 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 /*хедер*/
 .header {
@@ -70,9 +77,6 @@ body {
 }
 /* МЕЙН */
 /* Секция 1 */
-.hero {
-  background-color: #2f303a;
-}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -118,9 +122,6 @@ body {
   color: var(--title-color);
 }
 /* Секция 4 */
-.hero-fourth {
-  background-color: #f5f4fa;
-}
 .hero-fourth-title {
   font-weight: 700;
   font-size: 36px;
