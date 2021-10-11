@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--title-color);
 }
 
@@ -44,7 +44,7 @@ body {
   background-color: #ffffff;
 }
 .logo-header {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -94,7 +94,7 @@ body {
   cursor: pointer;
 }
 /* Секция 2 */
-.hero-subtitle-s2 {
+.hero-second-subtitle {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -102,7 +102,7 @@ body {
   text-transform: uppercase;
   color: var(--title-color);
 }
-.hero-text-s2 {
+.hero-second-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -118,10 +118,10 @@ body {
   color: var(--title-color);
 }
 /* Секция 4 */
-.hero-s4 {
+.hero-fourth {
   background-color: #f5f4fa;
 }
-.hero-title-s4 {
+.hero-fourth-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -129,14 +129,14 @@ body {
   letter-spacing: 0.03em;
   color: var(--title-color);
 }
-.hero-subtitle-s4 {
+.user {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--title-color);
 }
-.hero-text-s4 {
+.job-user {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -147,7 +147,7 @@ body {
   background-color: #2f303a;
 }
 .logo-footer {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -155,16 +155,12 @@ body {
   color: var(--logo-color-light);
 }
 .address {
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 .contacts-footer {
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
