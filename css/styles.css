@@ -3,7 +3,11 @@ body {
   color: var(--title-color);
 }
 .container {
-  max-width: 1200px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 :root {
@@ -26,6 +30,14 @@ body {
 }
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
 }
 .link-decoration {
   text-decoration: none;
