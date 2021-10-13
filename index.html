@@ -18,26 +18,28 @@
 <body>
         <!-- ХЕДЕР -->
         <header class="header">
-            <nav class="container">
+            <nav class="nav container">
                 <a href="./index.html" class="logo-header link-decoration"><span class="logo-color">Web</span>Studio</a>
 
-                <ul class="nav-list list-decoration">
-                    <li><a href="./index.html" class="link-decoration link link-color current">Студия</a></li>
-                    <li><a href="./portfolio.html" class="link-decoration link link-color">Портфолио</a></li>
-                    <li><a href="" class="link-decoration link link-color">Контакты</a></li>
+                <ul class="nav-list list-decoration container">
+                    <li class="item"><a href="./index.html" class="link-decoration link link-color current">Студия</a></li>
+                    <li class="item"><a href="./portfolio.html" class="link-decoration link link-color">Портфолио</a></li>
+                    <li class="item"><a href="" class="link-decoration link link-color">Контакты</a></li>
                 </ul>
 
             </nav>
-            <ul class="list-decoration container">
-                <li><a href="tel:+380961111111" class="link-decoration link contacts">+380961111111</a></li>
-                <li><a href="mailto:info@devstudio.com" class="link-decoration link contacts">info@devstudio.com</a>
-                </li>
-            </ul>
+            <div class="order">
+                <ul class="contacts-list list-decoration container">
+                    <li class="item"><a href="tel:+380961111111" class="link-decoration link contacts">+380961111111</a></li>
+                    <li class="item"><a href="mailto:info@devstudio.com" class="link-decoration link contacts">info@devstudio.com</a></li>
+            
+                </ul>
+            </div>
         </header>
         <!-- МЕЙН -->
         <main>
             <!-- Секция 1 -->
-            <section class="section container">
+            <section class="section container background">
                 <div>
                     <h1 class="hero-title">Эффективные решения<br>для вашего бизнеса</h1>
                     <button class="btn-hero" type="button">Заказать услугу</button>
@@ -47,7 +49,7 @@
             <section class="section container">
                 <div>
                     <h2 class="visually-hidden">Наши преимущества</h2>
-                    <ul class="list-decoration">
+                    <ul class="list-advantages list-decoration">
                         <li>
                             <h3 class="hero-second-subtitle">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
                             <p class="hero-second-text">Идейные соображения, а также начало повседневной работы по
@@ -75,7 +77,7 @@
             <section class="section container">
                 <div>
                     <h2 class="hero-title-s3">Чем мы занимаемся</h2>
-                    <ul class="list-decoration">
+                    <ul class="image-list list-decoration">
                         <li><img src="images/img (1).jpg" alt="печать на клавиатуре" width="370px"></li>
                         <li><img src="images/img (2).jpg" alt="ноутбук и телефон в руке" width="370px"></li>
                         <li><img src="images/img (3).jpg" alt="цветной гексагон в руке" width="370px"></li>
@@ -85,24 +87,24 @@
             <!-- Секция 4 -->
             <section class="section container">
                 <h2 class="hero-fourth-title">Наша команда</h2>
-                <ul class="list-decoration">
-                    <li class="">
-                        <img src="images/Игорь Демьяненко.jpg" alt="на фото Игорь Демьяненко" width="270px">
+                <ul class="list-users list-decoration">
+                    <li class="users">
+                        <img class="image-user" src="images/Игорь Демьяненко.jpg" alt="на фото Игорь Демьяненко" width="270px">
                         <h3 class="user">Игорь Демьяненко</h3>
                         <p class="job-user">Product Designer</p>
                     </li>
-                    <li class="">
-                        <img src="images/Ольга Репина.jpg" alt="на фото Ольга Репина" width="270px">
+                    <li class="users">
+                        <img class="image-user" src="images/Ольга Репина.jpg" alt="на фото Ольга Репина" width="270px">
                         <h3 class="user">Ольга Репина</h3>
                         <p class="job-user">Frontend Developer</p>
                     </li>
-                    <li class="">
-                        <img src="images/Николай Тарасов.jpg" alt="на фото Николай Тарасов" width="270px">
+                    <li class="users">
+                        <img class="image-user" src="images/Николай Тарасов.jpg" alt="на фото Николай Тарасов" width="270px">
                         <h3 class="user">Николай Тарасов</h3>
                         <p class="job-user">Marketing</p>
                     </li>
-                    <li class="">
-                        <img src="images/Михаил Ермаков.jpg" alt="на фото Михаил Ермаков" width="270px">
+                    <li class="users">
+                        <img class="image-user" src="images/Михаил Ермаков.jpg" alt="на фото Михаил Ермаков" width="270px">
                         <h3 class="user">Михаил Ермаков</h3>
                         <p class="job-user">UI Designer</p>
                     </li>
@@ -118,8 +120,7 @@
                 <ul class="list-decoration container">
                     <li><a href="" class="link-decoration address">г. Киев, пр-т Леси Украинки, 26</a></li>
                     <li><a href="tel:+380961111111" class="link-decoration contacts-footer">+380961111111</a></li>
-                    <li><a href="mailto:info@devstudio.com"
-                            class="link-decoration contacts-footer">info@devstudio.com</a></li>
+                    <li><a href="mailto:info@devstudio.com" class="link-decoration contacts-footer">info@devstudio.com</a></li>
                 </ul>
             </address>
         </footer>
