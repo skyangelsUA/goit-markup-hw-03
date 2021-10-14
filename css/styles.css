@@ -63,11 +63,11 @@ h3 {
 }
 /*хедер*/
 .header {
-  align-items: center;
-}
-.header .nav.contacts-list {
   display: flex;
   align-items: center;
+}
+.nav {
+  display: flex;
 }
 .nav-list {
   display: flex;
