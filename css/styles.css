@@ -69,15 +69,10 @@ h3 {
 .nav {
   display: flex;
 }
-.nav-list {
-  display: flex;
-}
 .nav-list .item + .item {
   margin-left: 50px;
 }
-.header {
-  background-color: #ffffff;
-}
+
 .logo-header {
   font-family: 'Raleway';
   font-weight: 700;
