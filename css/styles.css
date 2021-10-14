@@ -89,6 +89,7 @@ h3 {
   letter-spacing: 0.03em;
   color: var(--logo-color-dark);
 
+  margin: auto;
   margin-right: 93px;
 }
 .logo-color {
