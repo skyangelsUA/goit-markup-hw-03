@@ -65,7 +65,7 @@ h3 {
 .header {
   align-items: center;
 }
-.header .nav {
+.header .nav.contacts-list {
   display: flex;
   align-items: center;
 }
@@ -241,12 +241,22 @@ h3 {
   background-color: var(--hover-focus-color);
   cursor: pointer;
 }
+.list-btn {
+  display: flex;
+  justify-content: center;
+}
 .btn-portfolio {
   color: var(--title-color);
   background: #f5f4fa;
   color: (--title-color);
 }
 /* Секция 2 */
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
 .portfolio-name {
   font-weight: 700;
   font-size: 18px;

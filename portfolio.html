@@ -11,34 +11,35 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
 
     <!-- ХЕДЕР -->
-    <div class="container">
         <header class="header">
-            <nav>
-                <a href="index.html" class="logo-header link-decoration"><span class="logo-color">Web</span>Studio</a>
+            <nav class="nav container">
+                <a href="./index.html" class="logo-header link-decoration"><span class="logo-color">Web</span>Studio</a>
 
-                <ul class="nav-list list-decoration">
-                    <li><a href="./index.html" class="link-decoration link link-color">Студия</a></li>
-                    <li><a href="./portfolio.html" class="link-decoration link link-color current">Портфолио</a></li>
-                    <li><a href="" class="link-decoration link link-color">Контакты</a></li>
+                <ul class="nav-list list-decoration container">
+                    <li class="item"><a href="./index.html" class="link-decoration link link-color">Студия</a></li>
+                    <li class="item"><a href="./portfolio.html" class="link-decoration link link-color current">Портфолио</a></li>
+                    <li class="item"><a href="#contacts" class="link-decoration link link-color">Контакты</a></li>
                 </ul>
 
             </nav>
-            <ul class="list-decoration">
-                <li><a href="tel:+380961111111" class="link-decoration link contacts">+380961111111</a></li>
-                <li><a href="mailto:info@devstudio.com" class="link-decoration link contacts">info@devstudio.com</a></li>
-            </ul>
+            <div class="">
+                <ul class="contacts-list list-decoration container">
+                    <li class="item"><a href="tel:+380961111111" class="link-decoration link contacts">+380961111111</a></li>
+                    <li class="item"><a href="mailto:info@devstudio.com" class="link-decoration link contacts">info@devstudio.com</a></li>
+                </ul>
+            </div>
         </header>
         <main>
-            <sectio class="section">
+            <sectio class="section container">
                 <h1 class="visually-hidden">Портфолио</h1>
-                <ul class="list-decoration">
+                <ul class="list-btn list-decoration">
                     <li><button type="button" class="btn-portfolio">Все</button></li>
                     <li><button type="button" class="btn-portfolio">Веб-сайты</button></li>
                     <li><button type="button" class="btn-portfolio">Приложения</button></li>
@@ -46,9 +47,9 @@
                     <li><button type="button" class="btn-portfolio">Маркетинг</button></li>
                 </ul>
             </sectio>
-            <section class="section">
+            <section class="section container">
                 <h2 class="visually-hidden">Наши работы</h2>
-                <ul class="list-decoration">
+                <ul class="project-list list-decoration">
                     <li>
                         <img src="./images/num7.jpg" alt="ноутбук" width="370">
                         <h3 class="portfolio-name">Технокряк</h3>
@@ -97,7 +98,7 @@
             </sectio>
         </main>
         <!-- ФУТЕР -->
-        <footer class="footer">
+        <footer class="footer container" id="contacts">
 
             <a href="./index.html" class="logo-footer link-decoration"><span class="logo-color">Web</span>Studio</a>
 
