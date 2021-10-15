@@ -67,6 +67,7 @@ h3 {
 .header {
   display: flex;
   align-items: center;
+  border: 1px solid #ececec;
 }
 .header .container {
   display: flex;
@@ -164,9 +165,9 @@ h3 {
 /* Секция 2 */
 .list-advantages {
   display: flex;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
+}
+.list-advantages .item + .item {
+  margin-left: 30px;
 }
 .hero-second-subtitle {
   font-weight: 700;
@@ -196,9 +197,9 @@ h3 {
 }
 .image-list {
   display: flex;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
+}
+.image-list .item + .item {
+  margin-left: 30px;
 }
 /* Секция 4 */
 .hero-fourth-title {
@@ -212,12 +213,12 @@ h3 {
 }
 .list-users {
   display: flex;
-  justify-content: space-between;
   text-align: center;
-  margin: 0;
-  padding: 0;
 }
-.users {
+.list-users .users + .users {
+  margin-left: 30px;
+}
+.list-users .users {
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -285,7 +286,10 @@ h3 {
   color: #ffffff;
   background-color: var(--hover-focus-color);
   cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
+
 .list-btn {
   display: flex;
   justify-content: center;
@@ -307,17 +311,15 @@ h3 {
 
   color: var(--title-color);
   background: #f5f4fa;
-
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
 }
+
 /* Секция 2 */
 .project-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  text-align: center;
+  flex-basis: calc(100% / 3 - 30px);
 }
+
 .portfolio-name {
   font-weight: 700;
   font-size: 18px;
