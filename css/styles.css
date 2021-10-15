@@ -323,6 +323,8 @@ h3 {
   flex-basis: calc(100% / 3 -30px);
   margin-left: 30px;
   margin-top: 30px;
+  background: #ffffff;
+  outline: 1px solid #eeeeee;
 }
 .portfolio-name {
   font-weight: 700;
@@ -339,4 +341,5 @@ h3 {
   color: var(--subtitle-color);
   padding-top: 4px;
   padding-left: 24px;
+  padding-bottom: 20px;
 }
