@@ -127,6 +127,8 @@ h3 {
 /* Секция 1 */
 .background {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   font-weight: 900;
@@ -143,6 +145,7 @@ h3 {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  padding-bottom: 20px;
 
   color: #ffffff;
   background: var(--hover-focus-color);
