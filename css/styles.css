@@ -35,6 +35,8 @@ body {
 }
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 p,
 h1,
@@ -76,6 +78,8 @@ h3 {
 .nav-list {
   display: flex;
   align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .nav-list .item + .item {
   margin-left: 50px;
@@ -107,6 +111,7 @@ h3 {
 .contacts-list {
   display: flex;
   margin: auto;
+  margin-right: 0;
 }
 .contacts-list .item + .item {
   margin-left: 50px;
@@ -167,6 +172,7 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-color);
+  padding-bottom: 10px;
 }
 .hero-second-text {
   font-size: 14px;
@@ -208,6 +214,11 @@ h3 {
   margin: 0;
   padding: 0;
 }
+.users {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
 .user {
   font-weight: 500;
   font-size: 16px;
@@ -216,18 +227,23 @@ h3 {
   color: var(--title-color);
   width: 270px;
   height: 19px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .job-user {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--subtitle-color);
+  padding-bottom: 30px;
 }
 /* ФУТЕР */
 .footer {
   background-color: #2f303a;
-  margin: 0;
-  padding: 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: auto;
 }
 .logo-footer {
   font-family: 'Raleway';
@@ -236,11 +252,16 @@ h3 {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--logo-color-light);
-  margin-top: 60px;
+}
+.contacts-list-footer {
+  padding-top: 20px;
+  padding-left: 0;
+}
+.contacts-list-footer .item {
+  padding-bottom: 9px;
 }
 .address {
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -248,7 +269,6 @@ h3 {
 }
 .contacts-footer {
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
