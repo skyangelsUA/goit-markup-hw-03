@@ -312,14 +312,13 @@ h3 {
   color: var(--title-color);
   background: #f5f4fa;
 }
-
-/* Секция 2 */
 .project-list {
   display: flex;
   flex-wrap: wrap;
+}
+.project-list .item {
   flex-basis: calc(100% / 3 - 30px);
 }
-
 .portfolio-name {
   font-weight: 700;
   font-size: 18px;
