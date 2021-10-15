@@ -293,6 +293,7 @@ h3 {
 .list-btn {
   display: flex;
   justify-content: center;
+  padding-bottom: 50px;
 }
 .list-btn .item + .item {
   margin-left: 8px;
@@ -315,19 +316,27 @@ h3 {
 .project-list {
   display: flex;
   flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
 }
-.project-list .item {
-  flex-basis: calc(100% / 3 - 30px);
+.project-list > .item {
+  flex-basis: calc(100% / 3 -30px);
+  margin-left: 30px;
+  margin-top: 30px;
 }
 .portfolio-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding-top: 20px;
+  padding-left: 24px;
 }
 .portfolio-project {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--subtitle-color);
+  padding-top: 4px;
+  padding-left: 24px;
 }
