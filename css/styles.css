@@ -75,6 +75,7 @@ h3 {
 }
 .nav {
   display: flex;
+  align-items: center;
 }
 .nav-list {
   display: flex;
@@ -94,8 +95,6 @@ h3 {
   letter-spacing: 0.03em;
   color: var(--logo-color-dark);
 
-  margin: auto;
-  margin-left: 15px;
   margin-right: 93px;
 }
 .logo-color {
