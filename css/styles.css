@@ -38,14 +38,14 @@ ul {
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: none;
+}
 p,
 h1,
 h2,
 h3 {
   margin: 0;
-}
-.link-decoration {
-  text-decoration: none;
 }
 .visually-hidden {
   position: absolute;
@@ -67,7 +67,7 @@ h3 {
 .header {
   display: flex;
   align-items: center;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 .header .container {
   display: flex;
@@ -110,8 +110,7 @@ h3 {
 }
 .contacts-list {
   display: flex;
-  margin: auto;
-  margin-right: 0;
+  margin-left: auto;
 }
 .contacts-list .item + .item {
   margin-left: 50px;
@@ -125,7 +124,7 @@ h3 {
 }
 /* МЕЙН */
 /* Секция 1 */
-.hero-background {
+.hero {
   background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -174,7 +173,7 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-color);
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .hero-second-text {
   font-size: 14px;
@@ -184,6 +183,9 @@ h3 {
   width: 270px;
 }
 /* Секция 3 */
+.work {
+  padding-top: 0;
+}
 .hero-third-title {
   font-weight: 700;
   font-size: 36px;
@@ -200,6 +202,9 @@ h3 {
   margin-left: 30px;
 }
 /* Секция 4 */
+.background {
+  background-color: #f5f4fa;
+}
 .hero-fourth-title {
   font-weight: 700;
   font-size: 36px;
@@ -221,6 +226,10 @@ h3 {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+.user-thumb {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .user {
   font-weight: 500;
   font-size: 16px;
@@ -228,9 +237,6 @@ h3 {
   letter-spacing: 0.03em;
   color: var(--title-color);
   width: 270px;
-  height: 19px;
-  padding-top: 30px;
-  padding-bottom: 10px;
   margin-bottom: 10px;
 }
 .job-user {
@@ -238,14 +244,12 @@ h3 {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--subtitle-color);
-  padding-bottom: 30px;
 }
 /* ФУТЕР */
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-  margin: auto;
 }
 .logo-footer {
   font-family: 'Raleway';
@@ -256,11 +260,10 @@ h3 {
   color: var(--logo-color-light);
 }
 .contacts-list-footer {
-  padding-top: 20px;
-  padding-left: 0;
+  margin-top: 20px;
 }
 .contacts-list-footer .item {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 .address {
   font-style: normal;
@@ -291,7 +294,7 @@ h3 {
 .list-btn {
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .list-btn .item + .item {
   margin-left: 8px;
@@ -318,28 +321,28 @@ h3 {
   margin-top: -30px;
 }
 .project-list .item {
-  flex-basis: calc(100% / 3 -30px);
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
 .portfolio-thumb {
   background: #ffffff;
   border: 1px solid #eeeeee;
+  padding-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 24px;
 }
 .portfolio-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding-top: 20px;
-  padding-left: 24px;
 }
 .portfolio-project {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--subtitle-color);
-  padding-top: 4px;
-  padding-left: 24px;
-  padding-bottom: 20px;
+  margin-top: 4px;
 }
